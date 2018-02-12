@@ -1,0 +1,9 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "files.defaultLanguage": "powershell",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "window.zoomLevel": 0,
+    "editor.mouseWheelZoom": true
+}
