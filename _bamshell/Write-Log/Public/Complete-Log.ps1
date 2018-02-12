@@ -9,7 +9,7 @@
 
         [int]$MaxFileSize = 5MB,
 
-        [int]$MaxRotation = 3,
+        [int]$MaxRotation = 10,
 
         [timespan]$MaxFileAge = (New-TimeSpan -Days 7)
     )

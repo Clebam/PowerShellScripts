@@ -22,7 +22,7 @@
                 $Mutex = New-Object System.Threading.Mutex($false, "LogMutex")
                 [void]$Mutex.WaitOne()
             }
-            catch {
+            catch [System.Threading.AbandonedMutexException] {
                 # It may happen if a Mutex is not released correctly, but it will still get the Mutex.
             }
         }          
